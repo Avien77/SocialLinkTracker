@@ -9,19 +9,19 @@ public class music {
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
         int randMusic = rand.nextInt(4)+1;
-        File file = new File("1.01 MAZE OF LIFE.wav");
+        File file = new File("MazeOfLife.wav");
         switch (randMusic){
             case 1:
-            file = new File("1.01 MAZE OF LIFE.wav");
+            file = new File("MazeOfLife.wav");
             break;
             case 2:
-            file = new File("1.21 Period ('P4D' ver.).wav");
+            file = new File("Period.wav");
             break;
             case 3:
-            file = new File("1.22 Tanaka's Amazing Commodities ~Urban・Breeze・Elegant・Style~.wav");
+            file = new File("Tanaka.wav");
             break;
             case 4:
-            file = new File("1.24 Dance Hymn of the Soul (Disco In Velvet Room).wav");
+            file = new File("Hymn.wav");
             break;
             default:
             break;
