@@ -37,6 +37,7 @@ public class music {
         if (response.equals("Y")){
             clip.start();
         }
+        System.out.println("");
         response = scanner.next();
         clip.stop();
         clip.close();
