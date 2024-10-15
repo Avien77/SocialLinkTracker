@@ -5,7 +5,7 @@ import java.util.Random;
 import javax.sound.sampled.*;
 
 public class music {
-    public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException{
+    public music (String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException{
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
         int randMusic = rand.nextInt(4)+1;
