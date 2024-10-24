@@ -6,4 +6,4 @@ double divisor = rank*familiarity;
 return (Math.ceil(200/divisor))/2;
 }
 
-}
+}   
