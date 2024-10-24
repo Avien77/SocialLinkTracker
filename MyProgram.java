@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class main {
-    public static void Main(String[] args) {
+public class MyProgram {
+    public static void startMethod() {
     Scanner scanner = new Scanner(System.in);
         System.out.println("How many social links would you like to track?: ");
         int size = scanner.nextInt();   
@@ -25,6 +25,7 @@ public class main {
 
             // Instantiate a SocialLinkStats object and add it to the ArrayList
             socialLinks[i] = new socialLinkStats(rank, familiarity, role, name);
+            System.out.println("You should contact this person every " + trackerCalculator.TrackerCalculator(rank,familiarity) + " days.");
         }
         scanner.close();
     }
